@@ -1,4 +1,4 @@
-package groom.chap02.section01;
+package groom.chap02;
 
 public class Section02Assignment {
 
