@@ -1,4 +1,4 @@
-package groom.chap03.method;
+package groom.chap03.section01.method;
 
 public class Application9 {
 
