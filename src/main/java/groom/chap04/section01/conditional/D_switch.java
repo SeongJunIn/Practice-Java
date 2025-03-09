@@ -50,7 +50,65 @@ public class D_switch {
 
         }
 
-        System.out.println(first + " " + op + second + " " + " = " + result);
+        System.out.println(first + " " + op + " " + second + " " + " = " + result);
 
     }
+
+    public void testSwitchVendingMachine(){
+
+        /* 목표. switch문 내의 break문에 대해 흐름을 이해하고 적용할 수 있다. */
+        /* swithch문을 이용해서 문자열 값 비교 및 break에 대한 테스트
+         * break를 사용하지 않으면 멈추지 않고 계속 실행구문을 동작시킨다.
+         */
+
+        /* 간단한 자판기 */
+        System.out.println("====== groom vending machine ======");
+        System.out.println(" apple  banana  orange melon grape");
+        System.out.println("===================================");
+        System.out.println("과일을 선택해주세요");
+
+        //원하는 과일을 입력 받는다.
+
+        Scanner sc = new Scanner(System.in);
+
+        String selecteFruit = sc.nextLine();
+
+        int price = 0;
+
+        String order = "";
+
+        switch (selecteFruit){
+
+            case "apple" :
+                order = "apple";
+                price = 1000;
+                break;
+
+
+            case "banana" :
+                order = "banana";
+                price = 1500;
+                break;
+
+            case "orange" :
+                order = "orange";
+                price = 2000;
+                break;
+
+            case "melon" :
+                order = "melon";
+                price = 2500;
+                break;
+
+            case "grape" :
+                order = "grape";
+                price = 3000;
+                break;
+        }
+
+        System.out.println("주문하신 과일은 :  " + order);
+        System.out.println("투입하실 금액은 :  " + price);
+
+    }
+
 }

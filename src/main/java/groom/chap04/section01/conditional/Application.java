@@ -27,9 +27,9 @@ public class Application {
 
         D_switch d = new D_switch();
         /* switch문 흐름 확인용 메소드 호출 */
-        d.testSimpleSwitchStatement();
+//        d.testSimp123leSwitchStatement();
 
         /* 문자열값 비교 및 break 테스트 */
-//        d.testSwitchVendingMachine();
+        d.testSwitchVendingMachine();
     }
 }

@@ -1,4 +1,4 @@
-package Javebase1;
+package groom.mission.java_basic1;
 
 import java.util.Scanner;
 
